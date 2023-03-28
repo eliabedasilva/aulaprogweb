@@ -1,0 +1,95 @@
+*{
+    margin: 0; 
+    padding: 0;
+    
+}
+
+h1, menu li{
+
+    height: 100px;
+    vertical-align: center;
+    text-align: center; 
+    background-color:rgb(18, 198, 111); 
+    width: 100%; 
+    font-size: 50px; 
+    color: white;
+    font-family: Verdana;
+    
+}
+.texto-h1{
+
+    position: relative;
+    top: 25%;
+
+}
+main{
+    padding-top: 45px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    width: 100%;
+    background-color:#059052;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu li{
+    position:relative;
+    float:left;
+    background-color:#067442;
+
+    
+}
+.not{
+    border:0px;
+}
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px ; 
+    display:block;
+}
+.menu li a:hover{
+    background: #059052;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+
+}
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+footer{
+    margin-top: 40px;
+    height: 50px;
+    width: 100%; 
+    background-color:rgb(18, 198, 111);
+    text-align: center;
+
+}
+.footer-text{
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+
+}
