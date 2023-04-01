@@ -14,8 +14,20 @@ h1, menu li{
     font-size: 50px; 
     color: white;
     font-family: Verdana;
+    margin: 0px;
     
 }
+.borda-img {
+
+	border:3px solid rgb(18, 198, 111); 
+    display:block;
+    margin: 0 auto;
+
+	}
+figcaption{
+    text-align: center;
+}
+
 .texto-h1{
 
     position: relative;
@@ -80,16 +92,20 @@ main{
     width:150px;
 }
 footer{
-    margin-top: 40px;
+    
     height: 50px;
     width: 100%; 
     background-color:rgb(18, 198, 111);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
 
 }
 .footer-text{
     position: relative;
     top: 50%;
     font-size: 20px;
+    
 
 }
