@@ -17,13 +17,7 @@ h1, menu li{
     margin: 0px;
     
 }
-.borda-img {
-
-	border:3px solid rgb(18, 198, 111); 
-    display:block;
-    margin: 0 auto;
-
-	}
+.borda-img {border: 35px rgb(18, 198, 111);display:block;margin: 0 auto;border-style: groove;}
 figcaption{
     text-align: center;
 }
