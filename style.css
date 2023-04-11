@@ -97,9 +97,7 @@ footer{
 
 }
 .footer-text{
-    position: relative;
-    top: 50%;
+    position: absolute;
+    bottom: 0%;
     font-size: 20px;
-    
-
 }
